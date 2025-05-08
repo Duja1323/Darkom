@@ -7,4 +7,4 @@ Une landing page élégante pour un restaurant marocain, avec menu, avis clients
 Voici un aperçu de l'exécution de notre projet :
 
 ![Exécution du projet](images/image.png)
-![Logo du projet](images/logo.png)
+![Logo du projet](images/logo.jpg)
