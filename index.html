@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darkom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./images/logo.png">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo Darkom" class="logo-img">
+            <p><span>Dar</span>Kom</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about_us">A Propos</a></li>
+            <li><a href="#reservation">Réservation</a></li>
+        </ul>
+
+        <!-- menu responsive -->
+        <div class="toggle_menu"></div>
+    </header>
+
+    <!-- section acceuil home -->
+
+    <section id="home">
+        <div class="left">
+            <h4>Plat du Jour </h4>
+            <h1>Tajine de Poulet au Citron Confit</h1>
+            <p>Savourez notre tajine de poulet, sublimé par la douceur du citron confit, pour un voyage gustatif au cœur des traditions marocaines.</p>
+             <button class="order-btn" data-dish="Tajine de Poulet au Citron Confit" data-price="65.99"><a href="#">commander maintenant</a></button>
+        </div>
+        <div class="right">
+            <img src="images/img1.png">
+        </div>
+    </section>
+
+       <!-- section  menu -->
+
+       <section id="menu">
+           <h4 class="mini_title">Notre Menu</h4>
+           <h2 class="title">Menu de tous les jours</h2>
+           <div class="dishes">
+               <div class="dish">
+                   <img src="images/img1.png" alt="tajine poulet">
+                   <p>Tajine de Poulet</p>
+                   <h2>DH 65.99</h2>
+                   <button class="order-btn" data-dish="Tajine de Poulet" data-price="65.99">Commander</button>
+               </div>
+               <div class="dish">
+                    <img src="images/img11.png" alt="couscous">
+                    <p>Couscous</p>
+                    <h2>DH 70.99</h2>
+                    <button class="order-btn" data-dish="Couscous" data-price="70.99">Commander</button>
+               </div>
+               <div class="dish">
+                    <img src="images/img6.png"  alt="pastilla">
+                    <p>Pastilla Sucrée </p>
+                    <h2>DH 89.99</h2>
+                    <button class="order-btn" data-dish="Pastilla Sucrée" data-price="89.99">Commander</button>
+                </div>
+                <div class="dish">
+                        <img src="images/img.png" alt="salade">
+                        <p>Plat varié </p>
+                        <h2>DH 65.99</h2>
+                        <button class="order-btn" data-dish="Plat varié" data-price="65.99">Commander</button>
+                </div>
+                <div class="dish">
+                    <img src="images/img5.png" alt="tajine Viande">
+                    <p>Tajine de Viande aux Pruneaux</p>
+                    <h2>DH 65.99</h2>
+                    <button class="order-btn" data-dish="Tajine de Viande aux Pruneaux" data-price="65.99">Commander</button>
+               </div>
+               <div class="dish">
+                <img src="images/img3.png">
+                <p>Seffa</p>
+                <h2>DH 50.99</h2>
+                <button class="order-btn" data-dish="Seffa" data-price="50.99">Commander</button>
+           </div>
+
+           </div>
+       </section>
+
+
+       <!-- section about us -->
+
+       <section id="about_us">
+            <h4 class="mini_title">A propos de nous</h4>
+            <h2 class="title">Pourquoi nous choisir ?</h2>
+            <div class="about">
+                <div class="left">
+                    <img src="images/img-about-us.png">
+                </div>
+                <div class="right">
+                    <h3>La Meilleure Cuisine du Monde</h3>
+                    <p>Chez Darkom, chaque plat est une invitation au voyage. Nous sélectionnons les meilleurs ingrédients et réinterprétons les recettes traditionnelles marocaines pour vous offrir une expérience culinaire inoubliable.</p>
+                    <div id="hiddenContent" class="hidden-content" style="display: none;">
+                        <h3>Une Explosion de Saveurs Authentiques</h3>
+                        <p>Savourez des plats soigneusement préparés, mêlant épices exotiques et produits frais. Que vous soyez amateur de tajines fondants, de couscous parfumés ou de grillades savoureuses, Darkom vous promet une immersion dans les délices de la cuisine marocaine.</p>
+                    </div>
+                    <button id="showMoreBtn"><a href="#">Voir plus</a></button>
+                    
+                </div>
+            </div>
+       </section>
+
+
+       <!-- section comments -->
+      <section class="comment_section">
+            <h4 class="mini_title">Avis Clients </h4>
+            <h2 class="title"> Ce que nos clients disent de nous</h2>
+            <div class="comments">
+                <div class="comment">
+                    <div>
+                        <img src="images/img1.png">
+                        <h4>LALA Atika ALAOUI</h4>
+                    </div>
+                    <p>"Une expérience culinaire exceptionnelle ! Chaque plat de Darkom est une invitation au voyage, avec des saveurs authentiques qui rappellent la cuisine de ma grand-mère. Je recommande vivement !"</p>
+                </div>
+                <div class="comment">
+                    <div>
+                        <img src="images/img1.jpg">
+                        <h4> Vlademerd Dumblodoor</h4>
+                    </div>
+                    <p>"Darkom m'a fait découvrir les véritables saveurs marocaines. Le tajine au citron confit est un pur délice, et le service est impeccable. Une adresse incontournable !" </p>
+
+                </div>
+                <div class="comment">
+                    <div>
+                        <img src="images/img2.jpg">
+                        <h4>Saad Bennani</h4>
+                    </div>
+                    <p>"Enfin un restaurant qui respecte les traditions marocaines tout en offrant une touche moderne. La qualité des ingrédients et le goût authentique sont au rendez-vous. Bravo Darkom !"</p>
+                </div>
+
+            </div>
+      </section>
+
+
+      <!-- section reservation -->
+      <section id="reservation">
+        <h4 class="mini_title">Réservez votre plat en quelques clics !</h4>
+        <h2 class="title">  Remplissez ce formulaire dès maintenant.</h2>
+        <form action="">
+            <label> Votre nom </label>
+            <input type="text">
+            <label> Votre Email</label>
+            <input type="email">
+            <label> Votre Téléphone</label>
+            <input type="text">
+            <label> Date de réservation</label>
+            <input type="date">
+            <input type="submit" value="Réserver votre Place">
+            
+        </form>
+      </section>
+
+
+      <!-- footer -->
+      <footer>
+          <div class="services_list">
+
+
+              <div class="service">
+                  <img src="images/clock.png" alt="">
+                  <h2>Ouverture</h2>
+                  <p>10h30 à 23h45</p>
+                  <p>23h45 à 9h30</p>
+              </div>
+
+              <div class="service">
+                <img src="images/pin.png" alt="">
+                <h2>Adresses</h2>
+                <p>Maroc-Fés</p>
+                <p>Partout au Maroc</p>
+            </div>
+            <div class="service">
+                <img src="images/email.png" alt="">
+                <h2>Emails</h2>
+                <p>email@gmail.com</p>
+                <p>your.darkom@gmail.com</p>
+            </div>
+            <div class="service">
+                <img src="images/call.png" alt="">
+                <h2>Numéros</h2>
+                <p>+212 54454544</p>
+                <p>+212 65687515</p>
+            </div>
+            
+            <hr>
+          </div>
+
+          <p class="footer_text">Réalisé par <span>Khadija Drider</span> | Tous les droits sont réservés.</p>
+      </footer>
+
+
+      <!-- Modal de commande -->
+      <div id="orderModal" class="modal">
+          <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Votre Commande</h2>
+              <div class="order-details">
+                  <div class="selected-dish">
+                      <h3>Plat sélectionné: <span id="selectedDish"></span></h3>
+                      <p>Prix unitaire: <span id="unitPrice"></span> DH</p>
+                  </div>
+                  <div class="quantity-selector">
+                      <label for="quantity">Quantité:</label>
+                      <div class="quantity-controls">
+                          <button id="decreaseQty">-</button>
+                          <input type="number" id="quantity" value="1" min="1">
+                          <button id="increaseQty">+</button>
+                      </div>
+                  </div>
+                  <div class="total-price">
+                      <h3>Total: <span id="totalPrice"></span> DH</h3>
+                  </div>
+                  <form id="orderForm">
+                      <div class="form-group">
+                          <label for="name">Nom complet:</label>
+                          <input type="text" id="name" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="phone">Téléphone:</label>
+                          <input type="tel" id="phone" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="address">Adresse de livraison:</label>
+                          <textarea id="address" required></textarea>
+                      </div>
+                      <div class="form-group">
+                          <label for="payment">Mode de paiement:</label>
+                          <select id="payment" required>
+                              <option value="cash">Espèces à la livraison</option>
+                              <option value="card">Carte bancaire</option>
+                          </select>
+                      </div>
+                      <button type="submit" class="submit-order">Confirmer la commande</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+
+      <script>
+          var small_menu = document.querySelector('.toggle_menu')
+          var menu = document.querySelector('.menu')
+
+          small_menu.onclick = function(){
+               small_menu.classList.toggle('active');
+               menu.classList.toggle('responsive');
+          }
+
+          const showMoreBtn = document.getElementById('showMoreBtn');
+          const hiddenContent = document.getElementById('hiddenContent');
+          let isContentVisible = false;
+
+          showMoreBtn.addEventListener('click', function(e) {
+              e.preventDefault();
+              if (!isContentVisible) {
+                  hiddenContent.style.display = 'block';
+                  hiddenContent.style.opacity = '1';
+                  showMoreBtn.querySelector('a').textContent = 'Voir moins';
+              } else {
+                  hiddenContent.style.opacity = '0';
+                  setTimeout(() => {
+                      hiddenContent.style.display = 'none';
+                  }, 300);
+                  showMoreBtn.querySelector('a').textContent = 'Voir plus';
+              }
+              isContentVisible = !isContentVisible;
+          });
+
+
+          const modal = document.getElementById('orderModal');
+          const closeBtn = document.getElementsByClassName('close')[0];
+          const orderBtns = document.querySelectorAll('.order-btn');
+          const quantityInput = document.getElementById('quantity');
+          const decreaseBtn = document.getElementById('decreaseQty');
+          const increaseBtn = document.getElementById('increaseQty');
+          const totalPriceSpan = document.getElementById('totalPrice');
+          const selectedDishSpan = document.getElementById('selectedDish');
+          const unitPriceSpan = document.getElementById('unitPrice');
+          const orderForm = document.getElementById('orderForm');
+
+          let currentPrice = 0;
+
+
+          orderBtns.forEach(btn => {
+              btn.addEventListener('click', () => {
+                  const dish = btn.getAttribute('data-dish');
+                  const price = parseFloat(btn.getAttribute('data-price'));
+                  currentPrice = price;
+                  
+                  selectedDishSpan.textContent = dish;
+                  unitPriceSpan.textContent = price.toFixed(2);
+                  updateTotal();
+                  
+                  modal.style.display = 'block';
+              });
+          });
+
+          closeBtn.onclick = function() {
+              modal.style.display = 'none';
+          }
+
+          window.onclick = function(event) {
+              if (event.target == modal) {
+                  modal.style.display = 'none';
+              }
+          }
+
+
+          function updateTotal() {
+              const quantity = parseInt(quantityInput.value);
+              const total = currentPrice * quantity;
+              totalPriceSpan.textContent = total.toFixed(2);
+          }
+
+          decreaseBtn.addEventListener('click', () => {
+              if (quantityInput.value > 1) {
+                  quantityInput.value = parseInt(quantityInput.value) - 1;
+                  updateTotal();
+              }
+          });
+
+          increaseBtn.addEventListener('click', () => {
+              quantityInput.value = parseInt(quantityInput.value) + 1;
+              updateTotal();
+          });
+
+          quantityInput.addEventListener('change', updateTotal);
+
+          orderForm.addEventListener('submit', (e) => {
+              e.preventDefault();
+              
+              const orderData = {
+                  dish: selectedDishSpan.textContent,
+                  quantity: quantityInput.value,
+                  total: totalPriceSpan.textContent,
+                  name: document.getElementById('name').value,
+                  phone: document.getElementById('phone').value,
+                  address: document.getElementById('address').value,
+                  payment: document.getElementById('payment').value
+              };
+
+              alert('Commande confirmée! Nous vous contacterons bientôt.');
+              modal.style.display = 'none';
+              orderForm.reset();
+          });
+t
+          const reviewForm = document.getElementById('reviewForm');
+          const newReviews = document.getElementById('newReviews');
+
+          reviewForm.addEventListener('submit', function(e) {
+              e.preventDefault();
+              const name = document.getElementById('reviewName').value.trim();
+              const text = document.getElementById('reviewText').value.trim();
+              if (name && text) {
+                  const reviewDiv = document.createElement('div');
+                  reviewDiv.className = 'comment';
+                  reviewDiv.innerHTML = `<div><img src='images/img1.png' style='width:45px;height:45px;border-radius:50%;border:2px solid #27ae60;'><h4>${name}</h4></div><p>"${text}"</p>`;
+                  newReviews.prepend(reviewDiv);
+                  reviewForm.reset();
+              }
+          });
+      </script>
+</body>
+</html>
